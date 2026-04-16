@@ -11,6 +11,10 @@ permissions:
   pages: write
   id-token: write
 
+# 🔑 强制使用 Node.js 24，解决 Node.js 20 弃用警告
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +27,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v4
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
