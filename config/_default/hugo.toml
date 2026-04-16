@@ -3,35 +3,15 @@ title = '抗衰老科学前沿知识库'
 description = 'AI 驱动的抗衰老科学知识库，每日自动更新最新研究进展'
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh-cn'
-theme = 'hugo-book'
+theme = 'hugo-geekdoc'
 
 enableGitInfo = true
 summaryLength = 30
 
 [outputs]
   home = ['HTML', 'RSS']
-
-[menu]
-  [[menu.main]]
-    name = '首页'
-    url = '/'
-    weight = 10
-  [[menu.main]]
-    name = '基础理论'
-    url = '/basics/'
-    weight = 20
-  [[menu.main]]
-    name = '干预方法'
-    url = '/interventions/'
-    weight = 30
-  [[menu.main]]
-    name = '研究前沿'
-    url = '/research/'
-    weight = 40
-  [[menu.main]]
-    name = '关于'
-    url = '/about/'
-    weight = 50
+  page = ['HTML']
+  section = ['HTML']
 
 [markup]
   [markup.goldmark]
@@ -40,11 +20,12 @@ summaryLength = 30
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 3
+    ordered = false
 
 [params]
-  BookTheme = 'auto'
-  BookRepo = 'https://github.com/muwangdao/antiaging-knowledge-base'
-  BookEditPath = 'edit/main'
-  BookDateFormat = '2006-01-02'
-  BookSearch = true
-  BookToC = true
+  geekdocRepo = 'https://github.com/muwangdao/antiaging-knowledge-base'
+  geekdocEditPath = 'edit/main/content'
+  geekdocSearch = true
+  geekdocShowEditLink = true
+  geekdocBreadcrumbPath = 'docs'
+  geekdocDefaultSortBy = 'weight'
