@@ -11,19 +11,35 @@
     
     {{ if .Site.Params.features.search }}
     <div class="search-box">
-        <input type="search" placeholder="🔍 搜索全站..." id="search-input" onkeyup="searchSite()">
+        <input type="search" placeholder="🔍 搜索全站..." id="search-input" oninput="handleSearch()">
     </div>
     {{ end }}
 </nav>
 
 <script>
-function searchSite() {
+let searchTimeout;
+
+function handleSearch() {
+    clearTimeout(searchTimeout);
     const query = document.getElementById('search-input').value.trim();
-    if (query.length < 2) return;
     
-    if (typeof showModal === 'function') {
-        showModal();
-        displayResults(query);
+    if (query.length < 2) {
+        closeSearch();
+        return;
     }
+    
+    // 延迟 300ms 执行搜索，避免频繁计算
+    searchTimeout = setTimeout(() => {
+        if (typeof showModal === 'function') {
+            if (document.getElementById('search-modal').style.display !== 'flex') {
+                showModal();
+            }
+            displayResults(query);
+        }
+    }, 300);
+}
+
+function searchSite() {
+    handleSearch();
 }
 </script>
