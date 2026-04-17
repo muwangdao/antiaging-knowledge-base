@@ -12,6 +12,7 @@
     {{ if .Site.Params.features.search }}
     <div class="search-box">
         <input type="search" placeholder="🔍 搜索全站..." id="search-input" oninput="handleSearch()">
+        <button class="search-btn" onclick="triggerSearch()" title="搜索">🔍</button>
     </div>
     {{ end }}
 </nav>
@@ -24,7 +25,7 @@ function handleSearch() {
     const query = document.getElementById('search-input').value.trim();
     
     if (query.length < 2) {
-        closeSearch();
+        // 不自动关闭，等待用户点击按钮
         return;
     }
     
@@ -37,6 +38,20 @@ function handleSearch() {
             displayResults(query);
         }
     }, 300);
+}
+
+function triggerSearch() {
+    const query = document.getElementById('search-input').value.trim();
+    if (query.length < 2) {
+        alert('请输入至少 2 个字符进行搜索');
+        document.getElementById('search-input').focus();
+        return;
+    }
+    
+    if (typeof showModal === 'function') {
+        showModal();
+        displayResults(query);
+    }
 }
 
 function searchSite() {
