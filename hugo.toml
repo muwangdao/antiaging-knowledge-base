@@ -15,26 +15,26 @@ enableRobotsTXT = true
 enableEmoji = true
 
 # 压缩输出
-minify:
-  disableXML: false
-  minifyOutput: true
+[minify]
+  disableXML = false
+  minifyOutput = true
 
 # 缓存配置
-caches:
-  getresource:
-    dir: :cacheDir/:project
-    maxAge: -1
+[caches]
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = -1
   
-  getjson:
-    dir: :cacheDir/:project
-    maxAge: -1
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxAge = -1
   
-  csv:
-    dir: :cacheDir/:project
-    maxAge: -1
+  [caches.csv]
+    dir = ':cacheDir/:project'
+    maxAge = -1
 
 # 图片处理
-imaging:
-  quality: 85
-  resampleFilter: CatmullRom
-  anchor: smart
+[imaging]
+  quality = 85
+  resampleFilter = 'CatmullRom'
+  anchor = 'smart'
