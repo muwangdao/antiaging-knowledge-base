@@ -1,10 +1,14 @@
 {{ if .Site.Params.features.search }}
+<!-- Fuse.js 搜索库 -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+
 <div id="search-modal" class="search-modal" style="display: none;">
     <div class="search-modal-content">
         <div class="search-modal-header">
-            <h3>🔍 搜索结果</h3>
+            <h3>🔍 全站搜索</h3>
             <button class="search-close" onclick="closeSearch()">×</button>
         </div>
+        <div class="search-stats" id="search-stats"></div>
         <div id="search-results" class="search-results">
             <!-- 搜索结果将在这里显示 -->
         </div>
@@ -30,7 +34,7 @@
     background: white;
     border-radius: 10px;
     width: 90%;
-    max-width: 700px;
+    max-width: 800px;
     max-height: 80vh;
     overflow-y: auto;
     box-shadow: 0 10px 40px rgba(0,0,0,0.3);
@@ -42,6 +46,8 @@
     align-items: center;
     padding: 20px 25px;
     border-bottom: 1px solid var(--border);
+    background: var(--bg-secondary);
+    border-radius: 10px 10px 0 0;
 }
 
 .search-modal-header h3 {
@@ -61,10 +67,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
 }
 
 .search-close:hover {
+    background: rgba(0,0,0,0.1);
     color: var(--text);
+}
+
+.search-stats {
+    padding: 10px 25px;
+    background: #f0f9ff;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9em;
+    color: var(--text-light);
 }
 
 .search-results {
@@ -72,37 +89,107 @@
 }
 
 .search-result-item {
-    padding: 15px 0;
+    padding: 18px 0;
     border-bottom: 1px solid var(--border);
+    transition: background 0.2s;
+}
+
+.search-result-item:hover {
+    background: var(--bg-secondary);
+    margin: 0 -25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .search-result-item:last-child {
     border-bottom: none;
 }
 
-.search-result-item a {
-    font-size: 1.1em;
-    font-weight: 500;
-    color: var(--primary);
-    text-decoration: none;
-    display: block;
+.search-result-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 8px;
 }
 
-.search-result-item a:hover {
+.search-result-title {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.search-result-title:hover {
     text-decoration: underline;
 }
 
-.search-result-desc {
+.search-result-section {
+    font-size: 0.8em;
+    padding: 3px 8px;
+    background: var(--bg-secondary);
+    border-radius: 4px;
     color: var(--text-light);
+    text-transform: uppercase;
+}
+
+.search-result-url {
+    font-size: 0.85em;
+    color: var(--text-light);
+    margin: 5px 0;
+    word-break: break-all;
+}
+
+.search-result-desc {
+    color: var(--text);
     font-size: 0.95em;
-    line-height: 1.5;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+
+.search-result-content {
+    color: var(--text-light);
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.search-result-content::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(transparent, white);
 }
 
 .search-no-results {
     text-align: center;
+    padding: 60px 20px;
+    color: var(--text-light);
+}
+
+.search-no-results h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+.search-loading {
+    text-align: center;
     padding: 40px 20px;
     color: var(--text-light);
+}
+
+mark {
+    background: #fef3c7;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -110,20 +197,49 @@
         width: 95%;
         margin: 0 auto;
     }
+    
+    .search-modal-header h3 {
+        font-size: 1.1em;
+    }
 }
 </style>
 
 <script>
+// 生成搜索索引数据
 const sitePages = [
     {{ range .Site.Pages }}
     {
         title: {{ .Title | jsonify }},
         url: {{ .Permalink | jsonify }},
         desc: {{ with .Description }}{{ . | jsonify }}{{ else }}""{{ end }},
-        section: {{ .Section | jsonify }}
+        section: {{ .Section | jsonify }},
+        type: {{ .Type | jsonify }},
+        keywords: {{ with .Params.keywords }}{{ delimit . " " | jsonify }}{{ else }}""{{ end }},
+        content: {{ .Plain | truncate 500 | jsonify }},
+        date: {{ with .Date }}{{ .Format "2006-01-02" | jsonify }}{{ else }}""{{ end }},
+        lastmod: {{ with .Lastmod }}{{ .Format "2006-01-02" | jsonify }}{{ else }}""{{ end }}
     },
     {{ end }}
 ];
+
+// 初始化 Fuse.js
+const fuseOptions = {
+    keys: [
+        { name: 'title', weight: 0.5 },
+        { name: 'desc', weight: 0.3 },
+        { name: 'keywords', weight: 0.2 },
+        { name: 'content', weight: 0.15 },
+        { name: 'section', weight: 0.1 }
+    ],
+    threshold: 0.4,
+    includeMatches: true,
+    includeScore: true,
+    minMatchCharLength: 2,
+    shouldSort: true,
+    findAllMatches: true
+};
+
+const fuse = new Fuse(sitePages, fuseOptions);
 
 function searchSite() {
     const query = document.getElementById('search-input').value.trim();
@@ -135,41 +251,104 @@ function searchSite() {
 
 function displayResults(query) {
     const resultsContainer = document.getElementById('search-results');
-    const queryLower = query.toLowerCase();
+    const statsContainer = document.getElementById('search-stats');
     
-    const results = sitePages.filter(page => 
-        page.title.toLowerCase().includes(queryLower) || 
-        page.desc.toLowerCase().includes(queryLower) ||
-        page.section.toLowerCase().includes(queryLower)
-    );
+    const results = fuse.search(query);
     
     if (results.length === 0) {
+        statsContainer.innerHTML = '';
         resultsContainer.innerHTML = `
             <div class="search-no-results">
-                <p>😕 未找到相关结果</p>
-                <p style="font-size: 0.9em; margin-top: 10px;">尝试其他关键词</p>
+                <h4>😕 未找到相关结果</h4>
+                <p>尝试其他关键词或检查拼写</p>
+                <p style="font-size: 0.9em; margin-top: 15px; color: var(--text-light);">
+                    提示：可以使用更简短的关键词
+                </p>
             </div>
         `;
         return;
     }
     
+    // 显示统计
+    statsContainer.innerHTML = `
+        找到 <strong>${results.length}</strong> 个相关结果，
+        搜索 "<strong>${escapeHtml(query)}</strong>"
+    `;
+    
     // 高亮函数
-    function highlight(text, query) {
-        const regex = new RegExp(`(${query})`, 'gi');
-        return text.replace(regex, '<mark style="background: #fef3c7; padding: 2px 4px; border-radius: 3px;">$1</mark>');
+    function highlight(text, matches) {
+        if (!matches || matches.length === 0) return text;
+        
+        let result = text;
+        const indices = [];
+        
+        matches.forEach(match => {
+            if (match.indices) {
+                match.indices.forEach(([start, end]) => {
+                    indices.push([start, end]);
+                });
+            }
+        });
+        
+        // 去重并排序
+        const uniqueIndices = indices
+            .filter((v, i, a) => a.findIndex(t => t[0] === v[0] && t[1] === v[1]) === i)
+            .sort((a, b) => a[0] - b[0]);
+        
+        // 构建高亮 HTML
+        let html = '';
+        let lastEnd = 0;
+        
+        uniqueIndices.forEach(([start, end]) => {
+            if (start > lastEnd) {
+                html += text.substring(lastEnd, start);
+            }
+            html += '<mark>' + text.substring(start, end + 1) + '</mark>';
+            lastEnd = end + 1;
+        });
+        
+        if (lastEnd < text.length) {
+            html += text.substring(lastEnd);
+        }
+        
+        return html;
     }
     
-    resultsContainer.innerHTML = results.map(result => `
-        <div class="search-result-item">
-            <a href="${result.url}">${highlight(result.title, query)}</a>
-            ${result.desc ? `<div class="search-result-desc">${highlight(result.desc, query)}</div>` : ''}
-        </div>
-    `).join('');
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+    
+    resultsContainer.innerHTML = results.map(result => {
+        const item = result.item;
+        const matches = result.matches;
+        
+        // 找到匹配的字段
+        const matchedFields = matches.map(m => m.key).filter(Boolean);
+        
+        return `
+            <div class="search-result-item">
+                <div class="search-result-header">
+                    <a href="${item.url}" class="search-result-title">${highlight(item.title, matches.filter(m => m.key === 'title'))}</a>
+                    ${item.section ? `<span class="search-result-section">${item.section}</span>` : ''}
+                </div>
+                <div class="search-result-url">${item.url}</div>
+                ${item.desc ? `<div class="search-result-desc">${highlight(item.desc, matches.filter(m => m.key === 'desc'))}</div>` : ''}
+                ${item.content ? `<div class="search-result-content">${highlight(item.content.substring(0, 300) + (item.content.length > 300 ? '...' : ''), matches.filter(m => m.key === 'content'))}</div>` : ''}
+                <div style="font-size: 0.85em; color: var(--text-light); margin-top: 10px;">
+                    匹配字段：${matchedFields.join(', ')} | 
+                    相关度：${Math.round((1 - result.score) * 100)}%
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
 function showModal() {
     document.getElementById('search-modal').style.display = 'flex';
-    document.getElementById('search-results').innerHTML = '<p style="text-align: center; color: var(--text-light); padding: 40px;">搜索中...</p>';
+    document.getElementById('search-results').innerHTML = '<div class="search-loading">🔍 正在搜索...</div>';
+    document.getElementById('search-stats').innerHTML = '';
 }
 
 function closeSearch() {
@@ -199,6 +378,14 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 searchSite();
+            }
+        });
+        
+        // 实时搜索（可选）
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim();
+            if (query.length >= 2 && document.getElementById('search-modal').style.display === 'flex') {
+                displayResults(query);
             }
         });
     }

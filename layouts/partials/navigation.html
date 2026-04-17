@@ -11,7 +11,7 @@
     
     {{ if .Site.Params.features.search }}
     <div class="search-box">
-        <input type="search" placeholder="🔍 搜索..." id="search-input" onkeyup="searchSite()">
+        <input type="search" placeholder="🔍 搜索全站..." id="search-input" onkeyup="searchSite()">
     </div>
     {{ end }}
 </nav>
@@ -24,8 +24,6 @@ function searchSite() {
     if (typeof showModal === 'function') {
         showModal();
         displayResults(query);
-    } else {
-        alert('搜索功能加载中，请稍后...');
     }
 }
 </script>
