@@ -23,7 +23,7 @@ jobs:
           temporaryPublicStorage: true
       
       - name: Upload Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pagespeed-results
           path: .lighthouseci
