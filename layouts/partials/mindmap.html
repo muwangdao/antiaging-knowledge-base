@@ -2,60 +2,49 @@
     <h2 style="text-align: center; color: var(--text); margin-bottom: 10px;">🧬 抗衰老知识体系思维导图</h2>
     <p style="text-align: center; color: var(--text-light); margin-bottom: 30px;">点击节点可展开/收起，展示衰老机制与干预手段的完整关联</p>
     
-    <div class="mermaid" style="display: flex; justify-content: center;">
+    <div class="mermaid">
 mindmap
   root((抗衰老知识体系))
-    
     基础理论
       原发性标志物
         基因组不稳定性
         端粒磨损
         表观遗传改变
         蛋白质稳态丧失
-      
       拮抗性标志物
         营养感应失调
         线粒体功能障碍
         细胞衰老
-      
       整合性标志物
         干细胞耗竭
         细胞间通讯改变
         慢性炎症
         微生物群失调
         自噬功能障碍
-    
     干预方法
       NAD+ 前体
         NMN
         NR
-      
       Sirtuin 激活剂
         白藜芦醇
-      
       自噬激活剂
         亚精胺
         尿石素 A
-      
       Senolytics
-        达沙替尼加槲皮素
+        达沙替尼和槲皮素
         非瑟酮
-      
       其他
         甘氨酸
         二甲双胍
-    
     作用机制
       提升 NAD 水平
       激活自噬
       清除衰老细胞
       改善代谢
-    
     临床证据
       高证据等级
       中证据等级
       低证据等级
-    
     争议领域
       白藜芦醇有效性
       NMN 长期安全性
@@ -66,40 +55,26 @@ mindmap
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-    // 初始化 Mermaid
-    if (typeof mermaid !== 'undefined') {
-        mermaid.initialize({
-            startOnLoad: false,
-            theme: 'default',
-            flowchart: {
-                useMaxWidth: true,
-                htmlLabels: true,
-                curve: 'basis'
-            },
-            mindmap: {
-                useMaxWidth: true
-            },
-            securityLevel: 'loose'
-        });
-        
-        // 手动渲染
-        mermaid.run({
-            querySelector: '.mermaid'
-        });
-    }
-    
-    // 响应式调整
-    window.addEventListener('resize', function() {
-        const mermaidDivs = document.querySelectorAll('.mermaid');
-        mermaidDivs.forEach(div => {
-            div.style.maxWidth = '100%';
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof mermaid !== 'undefined') {
+            mermaid.initialize({
+                startOnLoad: false,
+                theme: 'default',
+                securityLevel: 'loose'
+            });
+            
+            mermaid.run({
+                querySelector: '.mermaid'
+            });
+        }
     });
 </script>
 
 <style>
     .mermaid {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        display: flex;
+        justify-content: center;
     }
     
     .mermaid svg {
@@ -107,13 +82,6 @@ mindmap
         height: auto;
     }
     
-    /* 节点悬停效果 */
-    .mermaid .node:hover {
-        filter: brightness(1.1);
-        cursor: pointer;
-    }
-    
-    /* 移动端优化 */
     @media (max-width: 768px) {
         .mermaid {
             overflow-x: auto;
