@@ -1,0 +1,68 @@
+name: Monitor Clinical Trials
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 每天凌晨 1:00 UTC（北京时间 09:00）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  monitor-trials:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Create data directory
+        run: mkdir -p data
+      
+      - name: Run monitoring script
+        id: monitor
+        run: |
+          python scripts/monitor-clinical-trials.py
+          echo "monitor_completed=true" >> $GITHUB_OUTPUT
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet content/clinical-trials.md || echo "has_changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content/clinical-trials.md data/
+          git commit -m "docs: 自动监控临床试验进展 $(date +%Y-%m-%d)"
+          git push
+      
+      - name: Send email briefing
+        if: steps.monitor.outputs.monitor_completed == 'true'
+        run: |
+          echo "发送邮件简报..."
+          # 实际实现需要配置邮件服务
+      
+      - name: Create issue if monitoring fails
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: "⚠️ 临床试验监控失败"
+          content-filepath: data/monitor-error.md
+          labels: automated, monitoring, clinical-trials
+      
+      - name: Upload monitoring report
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-report
+          path: data/
