@@ -19,18 +19,29 @@ geekdocCollapseSection: false
 
 ---
 
-## 📬 每日文献快讯
+## 📰 AI 新闻官 · 每日快讯
 
-| 日期 | 标题 | 期刊 |
-|------|------|------|
-| 2026-04-18 | 低共熔溶剂配方通过增强羟基酪醇透皮递送和生物活性促进毛发生长，具有 ROS 清除能力 | J Mater Chem B |
-| 2026-04-18 | STOML2 通过调节线粒体能量代谢和氧化应激缓解骨关节炎，抑制软骨细胞衰老和铁死亡 | Genet Res (Camb) |
-| 2026-04-18 | 低强度脉冲超声通过增加间质血管化和减少细胞衰老改善大鼠睾丸类固醇生成 | Asian J Androl |
-| 2026-04-17 | Hidden in plain sight: UN High-Level Meeting missed the mark on chronic pain and mobility impairment | J Glob Health |
-| 2026-04-16 | Reply to Letter: Your Best Life: Aging with Grace-Keys to Success in the Autumn of Life | Clin Orthop Relat Res |
-| 2026-04-16 | Growth versus Decline: Root Aging and Plant Performance | Plant Cell |
-| 2026-04-16 | Clinical Diagnosis of AD, LATE, and AD+LATE: Relevant Considerations for Patients and Research | Neurology |
+> **自动推送** · 过去 24 小时高影响力研究 · PubMed 影响因子>5 期刊
+
+<div style="background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%); padding: 25px; border-radius: 10px; margin: 20px 0; border-left: 4px solid #667eea;">
+
+### 最新研究速递
+
+| 日期 | 研究亮点 | 期刊 | 解读 |
+|------|---------|------|------|
+| 今日 08:00 | AI 新闻官自动推送 | PubMed | [→ 查看完整快讯](/news/) |
+| 昨日 | Senolytics 新进展 | Nat Aging | [→ 深度解读](/news/deep-dive/) |
+| 本周 | ABC 发布新共识 | Life Med | [→ ABC 追踪](/clinical-trials/#abc-consensus) |
+
+**数据来源**: PubMed · bioRxiv · ClinicalTrials.gov · ABC  
+**更新频率**: 每日 08:00 自动更新
+
+<div style="margin-top: 20px; text-align: center;">
+<a href="/news/" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">📰 访问 AI 新闻官专栏</a>
+</div>
+
+</div>
 
 ---
 
-*最后更新：2026-04-18*
+*最后更新：2026-04-19*
