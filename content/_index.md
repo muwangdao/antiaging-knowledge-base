@@ -23,14 +23,14 @@ geekdocCollapseSection: false
 
 | 日期 | 标题 | 期刊 |
 |------|------|------|
+| 2026-04-18 | 低共熔溶剂配方通过增强羟基酪醇透皮递送和生物活性促进毛发生长，具有 ROS 清除能力 | J Mater Chem B |
+| 2026-04-18 | STOML2 通过调节线粒体能量代谢和氧化应激缓解骨关节炎，抑制软骨细胞衰老和铁死亡 | Genet Res (Camb) |
+| 2026-04-18 | 低强度脉冲超声通过增加间质血管化和减少细胞衰老改善大鼠睾丸类固醇生成 | Asian J Androl |
 | 2026-04-17 | Hidden in plain sight: UN High-Level Meeting missed the mark on chronic pain and mobility impairment | J Glob Health |
 | 2026-04-16 | Reply to Letter: Your Best Life: Aging with Grace-Keys to Success in the Autumn of Life | Clin Orthop Relat Res |
 | 2026-04-16 | Growth versus Decline: Root Aging and Plant Performance | Plant Cell |
 | 2026-04-16 | Clinical Diagnosis of AD, LATE, and AD+LATE: Relevant Considerations for Patients and Research | Neurology |
-| 2026-04-16 | Supporting self-determination in ageing adults with intellectual disabilities through virtual reality | Disabil Rehabil Assist Technol |
-| 2026-04-14 | Translating cellular senescence research | Nat Rev Endocrinol |
-| 2026-04-14 | Circulating Metabolites Treat TMJ-OA | J Extracell Vesicles |
 
 ---
 
-*最后更新：2026-04-17*
+*最后更新：2026-04-18*
