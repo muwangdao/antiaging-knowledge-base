@@ -1,0 +1,52 @@
+baseURL = 'https://muwangdao.github.io/antiaging-knowledge-base/'
+title = '抗衰老科学前沿知识库'
+description = 'AI 驱动的抗衰老科学知识库，每日自动更新最新研究进展'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-cn'
+
+enableGitInfo = true
+summaryLength = 30
+relativeURLs = true
+canonifyURLs = true
+
+[menu]
+  [[menu.main]]
+    identifier = "basics"
+    name = "基础理论"
+    url = "/basics/"
+    weight = 10
+  [[menu.main]]
+    identifier = "interventions"
+    name = "干预方法"
+    url = "/interventions/"
+    weight = 20
+  [[menu.main]]
+    identifier = "aging-clocks"
+    name = "衰老时钟"
+    url = "/aging-clocks/"
+    weight = 25
+  [[menu.main]]
+    identifier = "research"
+    name = "研究前沿"
+    url = "/research/"
+    weight = 30
+  [[menu.main]]
+    identifier = "recent"
+    name = "近一月"
+    url = "/recent/"
+    weight = 35
+  [[menu.main]]
+    identifier = "metabolism"
+    name = "代谢网络"
+    url = "/metabolism/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
