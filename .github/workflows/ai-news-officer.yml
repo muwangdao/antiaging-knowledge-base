@@ -1,0 +1,64 @@
+name: AI News Officer - Daily Digest
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 00:00 UTC（北京时间 08:00）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  daily-digest:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Create directories
+        run: |
+          mkdir -p content/news
+          mkdir -p data/snapshots
+      
+      - name: Run AI News Officer
+        id: news
+        run: |
+          python scripts/ai-news-officer.py
+          echo "digest_completed=true" >> $GITHUB_OUTPUT
+      
+      - name: Check for new content
+        id: git-check
+        run: |
+          git diff --quiet content/news/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push daily digest
+        if: steps.git-check.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content/news/ data/snapshots/
+          git commit -m "docs: 自动生成每日快讯 $(date +%Y-%m-%d)"
+          git push
+      
+      - name: Create issue if digest fails
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: "⚠️ AI 新闻官每日任务失败"
+          content-filepath: data/news-error.md
+          labels: automated, news, daily-digest
+      
+      - name: Upload digest report
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-digest-report
+          path: content/news/
