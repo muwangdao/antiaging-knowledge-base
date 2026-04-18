@@ -15,11 +15,11 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 Apr | Multiparametric Characterization of Telomere Length in T Cells by Flow-FISH. | Current protocols | [41996101](https://pubmed.ncbi.nlm.nih.gov/41996101/) | Multiparametric Characterization of Telomere Length in T Cel... |
-| 2026 Apr 17 | Lactate-driven pyrimidine synthesis promotes ferroptosis resistance in hepatocellular carcinoma. | Molecular biomedicine | [41996004](https://pubmed.ncbi.nlm.nih.gov/41996004/) | Lactate-driven pyrimidine synthesis promotes ferroptosis res... |
-| 2026 Apr 17 | A model-based prion vaccine protects a transgenic mouse line carrying a Gerstmann-Sträussler-Scheinker disease mutation. | Acta neuropathologica | [41995880](https://pubmed.ncbi.nlm.nih.gov/41995880/) | A model-based prion vaccine protects a transgenic mouse line... |
-| 2026 Apr 17 | Metformin in Diatetes and Beyond: Therapeutic Mechanisms, Lactic Acidosis, Organ-Specific Effects, and Nanotechnology-Based Delivery Strategies. | Current medical science | [41995776](https://pubmed.ncbi.nlm.nih.gov/41995776/) | Metformin in Diatetes and Beyond: Therapeutic Mechanisms, La... |
-| 2026 Apr 17 | Profiling medical mycologists: Results from a global survey of the ESCMID Fungal Infection Study Group (EFISG). | Medical mycology | [41995303](https://pubmed.ncbi.nlm.nih.gov/41995303/) | Profiling medical mycologists: Results from a global survey ... |
+| 2026 Apr 18 | Simulated aquatic aging exacerbates pulmonary toxicity of graphite nanoplatelets by mechanically and chemically induced surface oxidation, enhancing oxidative potential. | Particle and fibre toxicology | [41998710](https://pubmed.ncbi.nlm.nih.gov/41998710/) | Simulated aquatic aging exacerbates pulmonary toxicity of gr... |
+| 2026 Apr 18 | Interactions between rare variants in DNA repair genes and cardiometabolic risk explain more variability in cognitive function. | GeroScience | [41998431](https://pubmed.ncbi.nlm.nih.gov/41998431/) | Interactions between rare variants in DNA repair genes and c... |
+| 2026 Apr 17 | Antiviral CD4(+) T and myeloid cell responses to influenza vaccines are attenuated in older adults. | Communications medicine | [41998201](https://pubmed.ncbi.nlm.nih.gov/41998201/) | Antiviral CD4(+) T and myeloid cell responses to influenza v... |
+| 2026 Apr 17 | Nrf1 coordinates proteasome activity and autophagy to maintain cardiac proteostasis. | Communications biology | [41998155](https://pubmed.ncbi.nlm.nih.gov/41998155/) | Nrf1 coordinates proteasome activity and autophagy to mainta... |
+| 2026 Apr 17 | Blood as the mirror and modulator of aging: mechanistic insights and rejuvenation strategies. | Experimental & molecular medicine | [41998143](https://pubmed.ncbi.nlm.nih.gov/41998143/) | Blood as the mirror and modulator of aging: mechanistic insi... |
 
 ### NAD+ 与线粒体
 
