@@ -131,7 +131,7 @@ def update_content_file(updates):
             briefing
         )
     
-    CONTENT_FILE.write_text(content, encoding='utf-8")
+    CONTENT_FILE.write_text(content, encoding='utf-8')
     print(f"✅ 已更新内容文件：{CONTENT_FILE}")
 
 
