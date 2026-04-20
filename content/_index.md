@@ -10,12 +10,20 @@ geekdocCollapseSection: false
 
 ## 📚 内容导航
 
-请在左侧导航栏选择：
+请在导航栏选择：
 
-- **基础理论**：衰老的十二大标志物
-- **干预方法**：补充剂循证指南
-- **研究前沿**：Senolytics 最新进展
-- **关于**：技术架构与免责
+- **📖 基础理论**：衰老的十二大标志物
+- **💊 干预方法**：补充剂循证指南 + 争议探讨
+- **🔬 研究前沿**：Senolytics 最新临床进展
+- **📅 近一个月**：近期研究汇总 + 趋势分析
+- **🧬 代谢网络**：代谢通路图谱
+- **📰 AI 新闻官**：每日快讯 + 周深度解读
+- **🧰 工具箱**：7 个实用研究工具
+- **ℹ️ 关于**：技术架构与免责声明
+
+<div style="margin: 30px 0; text-align: center;">
+<a href="/guide/" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 35px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">📖 查看网站使用指南</a>
+</div>
 
 ---
 
