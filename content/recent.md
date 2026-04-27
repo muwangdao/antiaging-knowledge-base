@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-04-26 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-04-27 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -13,18 +13,23 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ### Senolytics（衰老细胞清除）
 
-*暂无最新文献*
-
+| 日期 | 标题 | 期刊 | PMID | 关键发现 |
+|------|------|------|------|---------|
+| 2026 May 31 | Cellular Senescence of Patient-derived Fibroblasts Reveals the Mid-old Stage as a Critical Window for Transcriptomic Signatures Linked to Alzheimer's Disease Biomarkers and Classification. | Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology | [42036745](https://pubmed.ncbi.nlm.nih.gov/42036745/) | Cellular Senescence of Patient-derived Fibroblasts Reveals t... |
+| 2026 | Methods for Investigating the Sperm Epigenome. | Advances in experimental medicine and biology | [42036614](https://pubmed.ncbi.nlm.nih.gov/42036614/) | Methods for Investigating the Sperm Epigenome. |
+| 2026 Apr 27 | Immune activation from M. tuberculosis screening tests predicts mortality. | GeroScience | [42036540](https://pubmed.ncbi.nlm.nih.gov/42036540/) | Immune activation from M. tuberculosis screening tests predi... |
+| 2026 May 11 | Integrative analysis of follicular fluid metabolites, exosomal miRNAs and granulosa cell mRNAs shows their interplay in women of advanced maternal age. | Reproduction, fertility, and development | [42036331](https://pubmed.ncbi.nlm.nih.gov/42036331/) | Integrative analysis of follicular fluid metabolites, exosom... |
+| 2026 Apr 24 | Nuclear compression overrides matrix softness to regulate stem cell fate through actomyosin-driven YAP mechanotransduction. | Acta biomaterialia | [42035970](https://pubmed.ncbi.nlm.nih.gov/42035970/) | Nuclear compression overrides matrix softness to regulate st... |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 Apr 26 | Metabolic and Volumetric Alterations in the Basal Ganglia and the Cerebellum in Dopa-Responsive Dystonia in Symptomatic and Asymptomatic GCH1 Mutation Carriers. | Movement disorders : official journal of the Movement Disorder Society | [42036356](https://pubmed.ncbi.nlm.nih.gov/42036356/) | Metabolic and Volumetric Alterations in the Basal Ganglia an... |
+| 2026 Apr 23 | A Potential Anti-Aging Probiotic: Lactobacillus paracasei JS-3 Extends Lifespan in Caenorhabditis elegans and Modulates the Gut Microbiota in the Elderly. | The Journal of nutritional biochemistry | [42034299](https://pubmed.ncbi.nlm.nih.gov/42034299/) | A Potential Anti-Aging Probiotic: Lactobacillus paracasei JS... |
+| 2026 Apr 22 | Emerging chemical strategies for CD38 inhibition: restoring NAD(+) metabolism and disease control. | Bioorganic & medicinal chemistry | [42033923](https://pubmed.ncbi.nlm.nih.gov/42033923/) | Emerging chemical strategies for CD38 inhibition: restoring ... |
+| 2026 Apr 22 | Reactive oxygen species and metabolic checkpoints shape plasmacytoid dendritic cell fate in infection and autoimmunity. | Redox biology | [42033850](https://pubmed.ncbi.nlm.nih.gov/42033850/) | Reactive oxygen species and metabolic checkpoints shape plas... |
 | 2026 Apr | Hyperglycemia Leads to BMSC Impaired Osteogenesis, Enhanced Adipogenesis, and Altered Metabolism. | Journal of cellular biochemistry | [42033195](https://pubmed.ncbi.nlm.nih.gov/42033195/) | Hyperglycemia Leads to BMSC Impaired Osteogenesis, Enhanced ... |
-| 2026 Apr | Endothelial NAD(+) depletion drives vascular senescence and neuroinflammation via mtDNA-cGAS/STING-CD38 signaling in Alzheimer's disease. | Alzheimer's & dementia : the journal of the Alzheimer's Association | [42033099](https://pubmed.ncbi.nlm.nih.gov/42033099/) | Endothelial NAD(+) depletion drives vascular senescence and ... |
-| 2026 Apr 24 | Mitochondria at the heart of aging: structure, function, and failure. | Journal of translational medicine | [42032617](https://pubmed.ncbi.nlm.nih.gov/42032617/) | Mitochondria at the heart of aging: structure, function, and... |
-| 2026 Apr 23 | Mitochondrial NADP+-isocitrate dehydrogenase Idp1 involves CoQ biosynthesis in parallel with NAD kinase Pos5. | Bioscience, biotechnology, and biochemistry | [42024429](https://pubmed.ncbi.nlm.nih.gov/42024429/) | Mitochondrial NADP+-isocitrate dehydrogenase Idp1 involves C... |
-| 2026 May | The resveratrol-induced apoptosis and/or necroptosis of lung cancer cells is dependent on the activation status of PARP-1 and MLKL under oxidative stress. | Toxicological research | [42021860](https://pubmed.ncbi.nlm.nih.gov/42021860/) | The resveratrol-induced apoptosis and/or necroptosis of lung... |
 
 ### 尿石素 A 与线粒体自噬
 
@@ -56,4 +61,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-04-26 | 自动生成*
+*最后更新：2026-04-27 | 自动生成*
