@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-04-30 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-05-01 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -15,21 +15,21 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 May | Transcriptomics analyses reveal microgravity triggers estrogen synthesis amidst degeneration and aging in human ovarian granulosa cells. | Life sciences in space research | [42056751](https://pubmed.ncbi.nlm.nih.gov/42056751/) | Transcriptomics analyses reveal microgravity triggers estrog... |
-| 2026 May | The fruit fly Drosophila melanogaster remains a promising model organism for research in space biology. | Life sciences in space research | [42056750](https://pubmed.ncbi.nlm.nih.gov/42056750/) | The fruit fly Drosophila melanogaster remains a promising mo... |
-| 2026 Apr 29 | CXCL5 is associated with neutrophil-driven intestinal inflammation and IL-17-associated epithelial signaling in inflammatory bowel disease. | Scientific reports | [42056229](https://pubmed.ncbi.nlm.nih.gov/42056229/) | CXCL5 is associated with neutrophil-driven intestinal inflam... |
-| 2026 Apr 29 | Targeting adipocyte ESRRA alleviates osteoarthritis via interrupting inter-organelle crosstalk of complement C3-CFD-MAC cascade. | Bone research | [42056078](https://pubmed.ncbi.nlm.nih.gov/42056078/) | Targeting adipocyte ESRRA alleviates osteoarthritis via inte... |
-| 2026 Apr 29 | Development of an adjuvanted, higher-dose, cell-based influenza vaccine: combining advanced technologies to improve vaccine effectiveness. | Expert review of vaccines | [42055967](https://pubmed.ncbi.nlm.nih.gov/42055967/) | Development of an adjuvanted, higher-dose, cell-based influe... |
+| 2026 May | A Decline in Follicle Cell Function Is a Major Driver of Drosophila Ovarian Aging. | Aging cell | [42062799](https://pubmed.ncbi.nlm.nih.gov/42062799/) | A Decline in Follicle Cell Function Is a Major Driver of Dro... |
+| 2026 Apr 30 | Autophagy revealed as a targetable vulnerability in senescent cells by cell painting phenotypic profiling: a mechanistic study of MCOPPB and related compounds. | GeroScience | [42062708](https://pubmed.ncbi.nlm.nih.gov/42062708/) | Autophagy revealed as a targetable vulnerability in senescen... |
+| 2026 Apr 30 | Long-term cerebrovascular effects of cyclophosphamide and vincristine: endothelial senescence, impaired DNA repair signaling, and blood-brain barrier dysfunction. | GeroScience | [42062707](https://pubmed.ncbi.nlm.nih.gov/42062707/) | Long-term cerebrovascular effects of cyclophosphamide and vi... |
+| 2026 May 1 | The role of microRNAs in executive functions: a comprehensive review and bioinformatics analysis of human and animal studies. | Molecular psychiatry | [42062542](https://pubmed.ncbi.nlm.nih.gov/42062542/) | The role of microRNAs in executive functions: a comprehensiv... |
+| 2026 | Purification and analysis of cell death complexes. | Methods in cell biology | [42062003](https://pubmed.ncbi.nlm.nih.gov/42062003/) | Purification and analysis of cell death complexes. |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 Apr 28 | EtCBN-associated olfactory dysfunction involves Irf7 signaling and a microbiota-metabolite axis. | Chemico-biological interactions | [42061692](https://pubmed.ncbi.nlm.nih.gov/42061692/) | EtCBN-associated olfactory dysfunction involves Irf7 signali... |
+| 2026 Apr 28 | Energy metabolic failure drives the selective degeneration of dopaminergic neurons in Parkinson's disease. | Progress in neuro-psychopharmacology & biological psychiatry | [42061580](https://pubmed.ncbi.nlm.nih.gov/42061580/) | Energy metabolic failure drives the selective degeneration o... |
+| 2026 Apr 29 | NAD-dependent redox control enables endothelial quiescence and vascular stabilization during angiogenesis. | Cell metabolism | [42061402](https://pubmed.ncbi.nlm.nih.gov/42061402/) | NAD-dependent redox control enables endothelial quiescence a... |
+| 2026 May | Methylene blue restores NAD(+)/NADH homeostasis to attenuate Achilles tendinopathy via activating AIF/Mitochondrial respiratory chain complex I. | Journal of orthopaedic translation | [42058931](https://pubmed.ncbi.nlm.nih.gov/42058931/) | Methylene blue restores NAD(+)/NADH homeostasis to attenuate... |
 | 2026 Mar 31 | Electroacupuncture Combined With Paroxetine Improves Depression-Like Behavior in Rats by Regulating SIRT2/AMPAR in the Hippocampal Dentate Gyrus. | Journal of integrative neuroscience | [42052772](https://pubmed.ncbi.nlm.nih.gov/42052772/) | Electroacupuncture Combined With Paroxetine Improves Depress... |
-| 2026 Apr 3 | Role of nicotinamide adenine dinucleotide in cardiovascular disease. | Current opinion in cardiology | [42047243](https://pubmed.ncbi.nlm.nih.gov/42047243/) | Role of nicotinamide adenine dinucleotide in cardiovascular ... |
-| 2026 Apr 25 | Dendrobium officinale polysaccharide-spermidine composite hydrogels: Tunable rheological properties and improved in vitro colonic fermentation. | International journal of biological macromolecules | [42044821](https://pubmed.ncbi.nlm.nih.gov/42044821/) | Dendrobium officinale polysaccharide-spermidine composite hy... |
-| 2026 Apr 25 | Mitochondrial-nuclear crosstalk: A central axis in Alzheimer's disease. | Ageing research reviews | [42044748](https://pubmed.ncbi.nlm.nih.gov/42044748/) | Mitochondrial-nuclear crosstalk: A central axis in Alzheimer... |
-| 2026 May | Thomas Willis Lecture Award: Nature's Blueprint for Ischemic Tolerance: Preconditioning and Postconditioning Strategies. | Stroke | [42044228](https://pubmed.ncbi.nlm.nih.gov/42044228/) | Thomas Willis Lecture Award: Nature's Blueprint for Ischemic... |
 
 ### 尿石素 A 与线粒体自噬
 
@@ -61,4 +61,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-04-30 | 自动生成*
+*最后更新：2026-05-01 | 自动生成*
