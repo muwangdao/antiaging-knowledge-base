@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-05-01 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-05-02 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -15,21 +15,21 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 May | A Decline in Follicle Cell Function Is a Major Driver of Drosophila Ovarian Aging. | Aging cell | [42062799](https://pubmed.ncbi.nlm.nih.gov/42062799/) | A Decline in Follicle Cell Function Is a Major Driver of Dro... |
-| 2026 Apr 30 | Autophagy revealed as a targetable vulnerability in senescent cells by cell painting phenotypic profiling: a mechanistic study of MCOPPB and related compounds. | GeroScience | [42062708](https://pubmed.ncbi.nlm.nih.gov/42062708/) | Autophagy revealed as a targetable vulnerability in senescen... |
-| 2026 Apr 30 | Long-term cerebrovascular effects of cyclophosphamide and vincristine: endothelial senescence, impaired DNA repair signaling, and blood-brain barrier dysfunction. | GeroScience | [42062707](https://pubmed.ncbi.nlm.nih.gov/42062707/) | Long-term cerebrovascular effects of cyclophosphamide and vi... |
-| 2026 May 1 | The role of microRNAs in executive functions: a comprehensive review and bioinformatics analysis of human and animal studies. | Molecular psychiatry | [42062542](https://pubmed.ncbi.nlm.nih.gov/42062542/) | The role of microRNAs in executive functions: a comprehensiv... |
-| 2026 | Purification and analysis of cell death complexes. | Methods in cell biology | [42062003](https://pubmed.ncbi.nlm.nih.gov/42062003/) | Purification and analysis of cell death complexes. |
+| 2026 May | SIRT1 Downregulation by Advanced Glycation End Products Activates RANKL-Dependent Osteoclast Signaling and Drives Chondrocyte Senescence During Osteoarthritis Development. | Aging cell | [42067949](https://pubmed.ncbi.nlm.nih.gov/42067949/) | SIRT1 Downregulation by Advanced Glycation End Products Acti... |
+| 2026 May 1 | Zinc as a master regulator of intracellular organelle homeostasis. | Experimental & molecular medicine | [42067618](https://pubmed.ncbi.nlm.nih.gov/42067618/) | Zinc as a master regulator of intracellular organelle homeos... |
+| 2026 May 1 | Mcu regulates bone formation via mitochondrial calcium uptake and lineage allocation. | Experimental & molecular medicine | [42067615](https://pubmed.ncbi.nlm.nih.gov/42067615/) | Mcu regulates bone formation via mitochondrial calcium uptak... |
+| 2026 May 1 | DNA hypermethylation of FGFR2 drives fibrosis in the aging kidney. | Scientific reports | [42067567](https://pubmed.ncbi.nlm.nih.gov/42067567/) | DNA hypermethylation of FGFR2 drives fibrosis in the aging k... |
+| 2026 Jul 1 | Enhanced biodistribution and efficacy of nicomenthyl encapsulated in emulsions stabilized by methacrylated hyaluronic acid for the prevention and treatment of skin photoaging. | Carbohydrate polymers | [42067346](https://pubmed.ncbi.nlm.nih.gov/42067346/) | Enhanced biodistribution and efficacy of nicomenthyl encapsu... |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 May | NAD(+)‒circadian rhythm coupling in dementia. | Alzheimer's & dementia : the journal of the Alzheimer's Association | [42063312](https://pubmed.ncbi.nlm.nih.gov/42063312/) | NAD(+)‒circadian rhythm coupling in dementia. |
 | 2026 Apr 28 | EtCBN-associated olfactory dysfunction involves Irf7 signaling and a microbiota-metabolite axis. | Chemico-biological interactions | [42061692](https://pubmed.ncbi.nlm.nih.gov/42061692/) | EtCBN-associated olfactory dysfunction involves Irf7 signali... |
 | 2026 Apr 28 | Energy metabolic failure drives the selective degeneration of dopaminergic neurons in Parkinson's disease. | Progress in neuro-psychopharmacology & biological psychiatry | [42061580](https://pubmed.ncbi.nlm.nih.gov/42061580/) | Energy metabolic failure drives the selective degeneration o... |
 | 2026 Apr 29 | NAD-dependent redox control enables endothelial quiescence and vascular stabilization during angiogenesis. | Cell metabolism | [42061402](https://pubmed.ncbi.nlm.nih.gov/42061402/) | NAD-dependent redox control enables endothelial quiescence a... |
 | 2026 May | Methylene blue restores NAD(+)/NADH homeostasis to attenuate Achilles tendinopathy via activating AIF/Mitochondrial respiratory chain complex I. | Journal of orthopaedic translation | [42058931](https://pubmed.ncbi.nlm.nih.gov/42058931/) | Methylene blue restores NAD(+)/NADH homeostasis to attenuate... |
-| 2026 Mar 31 | Electroacupuncture Combined With Paroxetine Improves Depression-Like Behavior in Rats by Regulating SIRT2/AMPAR in the Hippocampal Dentate Gyrus. | Journal of integrative neuroscience | [42052772](https://pubmed.ncbi.nlm.nih.gov/42052772/) | Electroacupuncture Combined With Paroxetine Improves Depress... |
 
 ### 尿石素 A 与线粒体自噬
 
@@ -61,4 +61,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-05-01 | 自动生成*
+*最后更新：2026-05-02 | 自动生成*
