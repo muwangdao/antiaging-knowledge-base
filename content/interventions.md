@@ -433,4 +433,56 @@ NMN 是 NAD+ 的直接前体，通过 NAMPT 酶转化为 NAD+。NAD+ 是 Sirtuin
 
 ---
 
-*最后更新：2026-04-18 | 下次自动更新：2026-04-25（周一）*
+---
+
+## 🏥 临床追踪（ClinicalTrials.gov）
+
+> **最后检查日期**：2026-05-04 | **检查范围**：Phase II/III 试验
+
+### Senolytics 相关试验状态
+
+| NCT 编号 | 试验名称 | 状态 | 适应症 | 地点 |
+|---------|---------|------|--------|------|
+| NCT06018467 | Senolytics to Improve Osteoporosis Therapy | Active, not recruiting | 骨质疏松/骨量减少 | 丹麦 |
+| NCT05276895 | Natural Senolytic Agents & NLRP3 Inhibitors on Osteoarthritis | **Suspended** ⚠️ | 骨关节炎 | 埃及 |
+| NCT07270120 | Senolytics for Secondary Progressive MS | Not yet recruiting | 多发性硬化症 | 美国 |
+| NCT04785300 | ALSENLITE: Senolytics for Alzheimer's Disease | Active, not recruiting | 阿尔茨海默病 | 美国 |
+| NCT07025226 | Dasatinib, Quercetin, Fisetin for Glioma | **Recruiting** ✅ | 胶质瘤 | 美国 |
+| NCT05758246 | STOP-Sepsis Trial (Senolytics for Sepsis) | **Recruiting** ✅ | 脓毒症 | 美国 |
+| NCT05422885 | Dasatinib + Quercetin for Alzheimer's Risk | **Completed** 📊 (有结果) | 衰老/认知风险 | 美国 |
+| NCT05593588 | Senolytics for ILD in CVID | Enrolling by invitation | 间质性肺病 | 美国 |
+| NCT04313634 | Senolytics for Skeletal Health in Older Adults | **Completed** 📊 (有结果) | 骨骼健康 | 美国 |
+| NCT05506488 | Dasatinib + Quercetin for Fibrotic NAFLD | **Completed** | 肝纤维化/NAFLD | 荷兰 |
+
+### NMN/NAD+ 前体相关试验状态（精选）
+
+| NCT 编号 | 试验名称 | 状态 | 适应症 | 地点 |
+|---------|---------|------|--------|------|
+| NCT06592859 | NMN Aging Intervention in Middle-aged/Elderly | **Recruiting** ✅ | 衰老 | 中国 |
+| NCT04903210 | NMN in Hypertensive Patients | Unknown status ⚠️ | 高血压 | 中国 |
+| NCT05305677 | NMN on Polycystic Ovary Syndrome | **Completed** 📊 | 多囊卵巢综合征 | 中国 |
+| NCT06426355 | NMN for IVF/ICSI-ET in DOR | **Recruiting** ✅ | 卵巢储备功能减退 | 中国 |
+| NCT06629636 | NMN for Embryo Development | **Recruiting** ✅ | 女性不孕/IVF 失败 | 日本 |
+| NCT05485610 | NMN on Diminished Ovarian Reserve | Unknown status ⚠️ | 卵巢功能不全 | 中国 |
+| NCT05517122 | Oral NAD+ Precursors on Blood NAD+ | **Completed** 📊 | 健康成人 | 瑞士 |
+| NCT05759468 | NAD Augmentation in Diabetic Kidney Disease | **Recruiting** ✅ | 糖尿病肾病 | 美国 |
+| NCT06214078 | NMN for Mild Ulcerative Colitis | Unknown status ⚠️ | 溃疡性结肠炎 | 中国 |
+| NCT04862338 | NMN Pharmacodynamics in Healthy Adults | **Completed** 📊 | 健康志愿者 | 法国 |
+
+### 本周状态更新摘要（2026-05-04 检查）
+
+- **状态确认**：本周检查确认所有试验状态与上次记录（2026-04-27）一致，无新变化
+- **已完成试验**：3 项 senolytics 试验已完成并公布结果（NCT05422885、NCT04313634、NCT05506488）- 状态稳定
+- **招募中试验**：2 项 senolytics 试验持续招募中（NCT07025226 胶质瘤、NCT05758246 脓毒症）
+- **暂停试验**：1 项天然 senolytics 骨关节炎试验仍暂停（NCT05276895）
+- **NMN 领域**：多项中国主导的生殖健康试验正在招募，2 项试验状态未知需持续关注
+
+### 备注
+
+- 原文件中引用的 NCT04813424 和 NCT05371449 在 ClinicalTrials.gov 无法检索，可能已撤销或合并
+- 建议持续关注 Completed 试验的结果发布
+- "Unknown status"标记的试验超过 2 年未更新，需谨慎参考
+
+---
+
+*最后更新：2026-05-04 | 下次自动更新：2026-05-11（周一）*
