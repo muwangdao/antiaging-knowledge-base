@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-05-07 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-05-08 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -15,21 +15,21 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 May 6 | Targeting coupling of type H-like vessels and cell fate transition to delay soft tissue aging. | Nature communications | [42091889](https://pubmed.ncbi.nlm.nih.gov/42091889/) | Targeting coupling of type H-like vessels and cell fate tran... |
-| 2026 May 6 | ADAMTS4 elicits myeloid-derived immune cell recruitment and liver fibrogenesis in metabolic dysfunction-associated steatotic liver disease. | Signal transduction and targeted therapy | [42091872](https://pubmed.ncbi.nlm.nih.gov/42091872/) | ADAMTS4 elicits myeloid-derived immune cell recruitment and ... |
-| 2026 May 7 | Cellular senescence in skeletal muscle regeneration. | Cell regeneration (London, England) | [42091777](https://pubmed.ncbi.nlm.nih.gov/42091777/) | Cellular senescence in skeletal muscle regeneration. |
-| 2026 | [Function, Regeneration, and Proliferation of Pancreatic β-Cells Centered on NAD]. | Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan | [42091541](https://pubmed.ncbi.nlm.nih.gov/42091541/) | [Function, Regeneration, and Proliferation of Pancreatic β-C... |
-| 2026 May 6 | Caspase Non-canonical Roles in Mediating Lipid Homeostasis. | Biochemistry and cell biology = Biochimie et biologie cellulaire | [42091247](https://pubmed.ncbi.nlm.nih.gov/42091247/) | Caspase Non-canonical Roles in Mediating Lipid Homeostasis. |
+| 2026 May 7 | Transient immunostimulation with LPS promotes tissue repair in aged skin. | Immunity & ageing : I & A | [42098830](https://pubmed.ncbi.nlm.nih.gov/42098830/) | Transient immunostimulation with LPS promotes tissue repair ... |
+| 2026 May 7 | Super-enhancer-driven LncRNA MIR205HG promotes esophageal squamous cell carcinoma progression via glycolysis reprogramming. | Journal of translational medicine | [42098726](https://pubmed.ncbi.nlm.nih.gov/42098726/) | Super-enhancer-driven LncRNA MIR205HG promotes esophageal sq... |
+| 2026 May 7 | MSTO1 modulates RAD51 activity to safeguard mitochondrial DNA integrity and control immune responses. | Cancer gene therapy | [42098462](https://pubmed.ncbi.nlm.nih.gov/42098462/) | MSTO1 modulates RAD51 activity to safeguard mitochondrial DN... |
+| 2026 May 7 | Vertebral BMSC-EVs under estrogen deficiency drive senescence-related mitochondrial dysfunction in endplate chondrocytes via MRPL1 mRNA delivery. | Experimental & molecular medicine | [42098460](https://pubmed.ncbi.nlm.nih.gov/42098460/) | Vertebral BMSC-EVs under estrogen deficiency drive senescenc... |
+| 2026 May 7 | TIGAR overexpression alleviates intracerebral hemorrhage injury in mice by suppressing ATF4/NOX4/p22phox-mediated oxidative stress and inflammation. | Acta pharmacologica Sinica | [42098398](https://pubmed.ncbi.nlm.nih.gov/42098398/) | TIGAR overexpression alleviates intracerebral hemorrhage inj... |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 May 7 | Activation of the impaired NAMPT/SIRT7/SOD2 axis restores alveolar progenitor renewal in idiopathic pulmonary fibrosis. | The Journal of clinical investigation | [42096291](https://pubmed.ncbi.nlm.nih.gov/42096291/) | Activation of the impaired NAMPT/SIRT7/SOD2 axis restores al... |
 | 2026 | [Function, Regeneration, and Proliferation of Pancreatic β-Cells Centered on NAD]. | Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan | [42091541](https://pubmed.ncbi.nlm.nih.gov/42091541/) | [Function, Regeneration, and Proliferation of Pancreatic β-C... |
 | 2026 May 4 | The Expanding Landscape of ADP-Ribosylation: Protein, DNA, RNA, and Mitochondrial Regulation. | Chemical research in toxicology | [42080600](https://pubmed.ncbi.nlm.nih.gov/42080600/) | The Expanding Landscape of ADP-Ribosylation: Protein, DNA, R... |
 | 2026 Apr 11 | Photoprotective Potential of a Yeast/Rice Fermentation Filtrate and Sialic Acid in Mitigating UVA-Induced Oxidative Stress and Mitochondrial Dysfunction in Skin Fibroblasts. | Molecules (Basel, Switzerland) | [42075941](https://pubmed.ncbi.nlm.nih.gov/42075941/) | Photoprotective Potential of a Yeast/Rice Fermentation Filtr... |
 | 2026 Apr 16 | High-Level Production of NMN in Escherichia coli Through Co-Utilization of Glucose and Glycerol. | Microorganisms | [42075292](https://pubmed.ncbi.nlm.nih.gov/42075292/) | High-Level Production of NMN in Escherichia coli Through Co-... |
-| 2026 Apr 17 | Ambiol Prevents Changes in the Functional Characteristics of Mitochondria Under Hypoxia. | International journal of molecular sciences | [42074227](https://pubmed.ncbi.nlm.nih.gov/42074227/) | Ambiol Prevents Changes in the Functional Characteristics of... |
 
 ### 尿石素 A 与线粒体自噬
 
@@ -45,9 +45,9 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 May 4 | Clostridium butyricum and its metabolite spermidine delay cognitive decline during natural brain aging by reducing inflammation and oxidative stress. | Behavioural brain research | [42092427](https://pubmed.ncbi.nlm.nih.gov/42092427/) | Clostridium butyricum and its metabolite spermidine delay co... |
 | 2026 May 3 | Polyamines and Autophagy as a Dynamic Regulatory Network in Skeletal Muscle Regeneration and Aging. | Mechanisms of ageing and development | [42086115](https://pubmed.ncbi.nlm.nih.gov/42086115/) | Polyamines and Autophagy as a Dynamic Regulatory Network in ... |
 | 2026 May | Short-Term Oral Spermidine Supplementation Modifies Aspects of Neurodegenerative Disease in Flies and Mice With MPS III. | Journal of inherited metabolic disease | [42050889](https://pubmed.ncbi.nlm.nih.gov/42050889/) | Short-Term Oral Spermidine Supplementation Modifies Aspects ... |
-| 2026 Apr 25 | Dendrobium officinale polysaccharide-spermidine composite hydrogels: Tunable rheological properties and improved in vitro colonic fermentation. | International journal of biological macromolecules | [42044821](https://pubmed.ncbi.nlm.nih.gov/42044821/) | Dendrobium officinale polysaccharide-spermidine composite hy... |
 
 ---
 
@@ -61,4 +61,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-05-07 | 自动生成*
+*最后更新：2026-05-08 | 自动生成*
