@@ -13,9 +13,13 @@ draft: false
 
 ## 最新动态
 
-ABC 相关新闻将自动抓取并展示...
+- [2026-05-08 追踪报告](/news/abc-updates/2026-05-08/) — 🔥 3 篇重磅论文：Immunity 免疫衰老时钟 / Cell Metab 铁脂衰老 / Protein Cell 灵长类附睾衰老
+- [2026-05-07 追踪报告](/news/abc-updates/2026-05-07/) — 定期检查，无重大新动态
+- [2025-10-22 X-Age 项目启动](/news/abc-updates/2026-05-07/) — 200+ 学者联合推出耄耋计划
+- [2025-03-01 脂肪衰老共识审定](/news/abc-updates/2026-05-07/) — 华东师大召开审定会
+- [2024-12-05 NAR 免疫衰老数据库](/news/abc-updates/2026-05-07/) — Immunosenescence Inventory 发布
 
-<!-- ABC 新闻将展示在此处 -->
+**最新检查**: 2026-05-08 12:00 — 3 篇重磅论文（Immunity / Cell Metab / Protein Cell）
 
 ---
 
