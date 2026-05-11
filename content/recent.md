@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-05-10 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-05-11 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -15,39 +15,31 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 May 9 | Decreased expression of ribonucleotide reductase M2 accelerates ovarian aging by suppressing cell proliferation and inducing DNA damage in mouse theca-interstitial cells. | Journal of ovarian research | [42104456](https://pubmed.ncbi.nlm.nih.gov/42104456/) | Decreased expression of ribonucleotide reductase M2 accelera... |
-| 2026 May 8 | Nanotechnology-enhanced CAR-T therapy strategies in cancer, aging, and autoimmune diseases. | Journal of hematology & oncology | [42104450](https://pubmed.ncbi.nlm.nih.gov/42104450/) | Nanotechnology-enhanced CAR-T therapy strategies in cancer, ... |
-| 2026 May 8 | Multi-omics analysis of the mechanism by ATP13A2 regulates the tumor microenvironment and prognosis in hepatocellular carcinoma. | Cancer cell international | [42104358](https://pubmed.ncbi.nlm.nih.gov/42104358/) | Multi-omics analysis of the mechanism by ATP13A2 regulates t... |
-| 2026 May 8 | Special feature: "current status and future development of organ preservation technology" novel techniques for assessing pulmonary function in cellular ex vivo lung perfusion: a republication of the review published in Japanese Journal of Artificial Organs. | Journal of artificial organs : the official journal of the Japanese Society for Artificial Organs | [42104149](https://pubmed.ncbi.nlm.nih.gov/42104149/) | Special feature: "current status and future development of o... |
-| 2026 May 8 | Discovery of a pyrazolopyridine alkaloid that mitigates neuronal ER stress and age-related decline. | Communications biology | [42104039](https://pubmed.ncbi.nlm.nih.gov/42104039/) | Discovery of a pyrazolopyridine alkaloid that mitigates neur... |
+| 2026 May | FAM162A Is a Key Regulator of Mitochondrial Structure, Dynamics, and Bioenergetics, Driving Cellular Protection and Longevity. | Aging cell | [42108726](https://pubmed.ncbi.nlm.nih.gov/42108726/) | FAM162A Is a Key Regulator of Mitochondrial Structure, Dynam... |
+| 2026 May | Exosome-Delivered eNAMPT From Exercise Activates SIRT1 to Counteract Age-Related Hepatic Steatosis and Fibrosis. | Aging cell | [42108568](https://pubmed.ncbi.nlm.nih.gov/42108568/) | Exosome-Delivered eNAMPT From Exercise Activates SIRT1 to Co... |
+| 2026 May | Melatonin Regulates Arylhydrocarbon Receptor Mediated UVR-Induced Processes Related to Inflammation, Skin Aging and Carcinogenesis in Human Ex Vivo Skin. | Experimental dermatology | [42108558](https://pubmed.ncbi.nlm.nih.gov/42108558/) | Melatonin Regulates Arylhydrocarbon Receptor Mediated UVR-In... |
+| 2026 May 10 | Geometry of the cumulant series in diffusion MRI. | Nature communications | [42108286](https://pubmed.ncbi.nlm.nih.gov/42108286/) | Geometry of the cumulant series in diffusion MRI. |
+| 2026 May 11 | T-Cell Immunosenescence in Systemic Lupus Erythematosus: Molecular Mechanisms and Therapeutic Perspectives. | Clinical reviews in allergy & immunology | [42108277](https://pubmed.ncbi.nlm.nih.gov/42108277/) | T-Cell Immunosenescence in Systemic Lupus Erythematosus: Mol... |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 May | Exosome-Delivered eNAMPT From Exercise Activates SIRT1 to Counteract Age-Related Hepatic Steatosis and Fibrosis. | Aging cell | [42108568](https://pubmed.ncbi.nlm.nih.gov/42108568/) | Exosome-Delivered eNAMPT From Exercise Activates SIRT1 to Co... |
+| 2026 May 8 | NUTRITION INFORMATION BRIEFS - Niacin. | Advances in nutrition (Bethesda, Md.) | [42107767](https://pubmed.ncbi.nlm.nih.gov/42107767/) | NUTRITION INFORMATION BRIEFS - Niacin. |
+| 2026 May 7 | The Mitochondria-Synapse Axis in Alzheimer's Disease: Lost Coordination in Early Stages. | Ageing research reviews | [42106151](https://pubmed.ncbi.nlm.nih.gov/42106151/) | The Mitochondria-Synapse Axis in Alzheimer's Disease: Lost C... |
 | 2026 May 7 | Garlic-derived metabolite activates LKB1, promotes adipose eNAMPT secretion, and improves age-related muscle function via hypothalamic signaling. | Cell metabolism | [42102814](https://pubmed.ncbi.nlm.nih.gov/42102814/) | Garlic-derived metabolite activates LKB1, promotes adipose e... |
 | 2026 May 7 | Activation of the impaired NAMPT/SIRT7/SOD2 axis restores alveolar progenitor renewal in idiopathic pulmonary fibrosis. | The Journal of clinical investigation | [42096291](https://pubmed.ncbi.nlm.nih.gov/42096291/) | Activation of the impaired NAMPT/SIRT7/SOD2 axis restores al... |
-| 2026 | [Function, Regeneration, and Proliferation of Pancreatic β-Cells Centered on NAD]. | Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan | [42091541](https://pubmed.ncbi.nlm.nih.gov/42091541/) | [Function, Regeneration, and Proliferation of Pancreatic β-C... |
-| 2026 May 4 | The Expanding Landscape of ADP-Ribosylation: Protein, DNA, RNA, and Mitochondrial Regulation. | Chemical research in toxicology | [42080600](https://pubmed.ncbi.nlm.nih.gov/42080600/) | The Expanding Landscape of ADP-Ribosylation: Protein, DNA, R... |
-| 2026 Apr 11 | Photoprotective Potential of a Yeast/Rice Fermentation Filtrate and Sialic Acid in Mitigating UVA-Induced Oxidative Stress and Mitochondrial Dysfunction in Skin Fibroblasts. | Molecules (Basel, Switzerland) | [42075941](https://pubmed.ncbi.nlm.nih.gov/42075941/) | Photoprotective Potential of a Yeast/Rice Fermentation Filtr... |
 
 ### 尿石素 A 与线粒体自噬
 
-| 日期 | 标题 | 期刊 | PMID | 关键发现 |
-|------|------|------|------|---------|
-| 2026 Apr 15 | Trimethyltin chloride triggers ferroptosis in myocardial injury: mitochondria-dependent protection by luteolin. | Environment international | [42013553](https://pubmed.ncbi.nlm.nih.gov/42013553/) | Trimethyltin chloride triggers ferroptosis in myocardial inj... |
-| 2026 | SRN-901, a Novel Longevity Drug, Extends Lifespan and Healthspan by Targeting Multiple Aging Pathways. | Drug design, development and therapy | [42011226](https://pubmed.ncbi.nlm.nih.gov/42011226/) | SRN-901, a Novel Longevity Drug, Extends Lifespan and Health... |
-| 2026 Oct | A 3-N nose-to-brain urolithin a nanomotor targeting microglial mitophagy in neuroinflammation. | Biomaterials | [41980377](https://pubmed.ncbi.nlm.nih.gov/41980377/) | A 3-N nose-to-brain urolithin a nanomotor targeting microgli... |
-| 2026 | Integrated Genomic Analysis Reveals New Diagnostic Biomarkers and Immune Mechanisms for Polycystic Ovary Syndrome. | International journal of women's health | [41978723](https://pubmed.ncbi.nlm.nih.gov/41978723/) | Integrated Genomic Analysis Reveals New Diagnostic Biomarker... |
-| 2026 Apr 8 | Glucose deprivation impairs lipid tolerance related to mitophagy disorder in cardiomyocytes. | Molecular and cellular endocrinology | [41962756](https://pubmed.ncbi.nlm.nih.gov/41962756/) | Glucose deprivation impairs lipid tolerance related to mitop... |
+*暂无最新文献*
+
 
 ### 亚精胺与自噬
 
-| 日期 | 标题 | 期刊 | PMID | 关键发现 |
-|------|------|------|------|---------|
-| 2026 May 4 | Clostridium butyricum and its metabolite spermidine delay cognitive decline during natural brain aging by reducing inflammation and oxidative stress. | Behavioural brain research | [42092427](https://pubmed.ncbi.nlm.nih.gov/42092427/) | Clostridium butyricum and its metabolite spermidine delay co... |
-| 2026 May 3 | Polyamines and autophagy as a dynamic regulatory network in skeletal muscle regeneration and aging. | Mechanisms of ageing and development | [42086115](https://pubmed.ncbi.nlm.nih.gov/42086115/) | Polyamines and autophagy as a dynamic regulatory network in ... |
-| 2026 May | Short-Term Oral Spermidine Supplementation Modifies Aspects of Neurodegenerative Disease in Flies and Mice With MPS III. | Journal of inherited metabolic disease | [42050889](https://pubmed.ncbi.nlm.nih.gov/42050889/) | Short-Term Oral Spermidine Supplementation Modifies Aspects ... |
+*暂无最新文献*
+
 
 ---
 
@@ -61,4 +53,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-05-10 | 自动生成*
+*最后更新：2026-05-11 | 自动生成*
