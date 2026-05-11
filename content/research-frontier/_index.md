@@ -2,13 +2,63 @@
 
 > 本文件由自动化系统每周更新，追踪最新抗衰老研究进展。
 
-**最后更新**: 2026-05-06 19:43 (Asia/Shanghai)  
+**最后更新**: 2026-05-11 08:00 (Asia/Shanghai)  
 **更新频率**: 每周  
 **数据来源**: PubMed (多关键词交叉检索)
 
 ---
 
-## 本周新增论文 (2026.04.28 – 2026.05.05)
+## 本周新增论文 (2026.05.06 – 2026.05.11)
+
+### 📌 重点论文
+
+#### 1. 衰老心脏再生治疗中的衰老细胞靶点
+- **标题**: Targets of senescence in cardiac muscle: insights for regenerative treatments in the aged heart
+- **期刊**: Expert Opin Ther Targets (2026-05-07)
+- **关键发现**: 老年心脏再生治疗失败的主要原因是患者年龄导致的组织微环境衰老。Senotherapeutics 可作为再生疗法的辅助手段，通过清除衰老细胞改善心肌微环境，促进内源性心脏再生。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42096244/
+
+#### 2. 细胞衰老的动态谱系：超越二元模型
+- **标题**: Towards a context-aware framework for cellular senescence
+- **期刊**: Biogerontology (2026-05-06)
+- **关键发现**: 提出细胞衰老不是简单的"衰老/非衰老"二元状态，而是一个动态异质性谱系（"senotypes"）。生长 arrest 可随时间变得不稳定，细胞可能恢复增殖能力。建议放弃寻找"通用标志物"，转向开发组织特异性和情境依赖的 senescence 识别策略。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42089944/
+
+#### 3. Galangin 抑制 DPP4 驱动的铁死亡改善老年性骨质疏松
+- **标题**: DPP4-Driven Ferroptosis Promotes Senescence: Galangin as a Therapeutic Agent for Age-Related Bone Loss
+- **期刊**: Drug Dev Res (2026-05)
+- **关键发现**: 天然黄酮类化合物 Galangin 通过抑制 DPP4 核转位及其与 NOX1 的相互作用，阻断 ROS 依赖性铁死亡信号，挽救骨髓基质细胞衰老并恢复成骨功能，为骨骼衰老提供了新的靶向策略。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42041149/
+
+#### 4. 线粒体-核互作轴：阿尔茨海默病的核心病理机制
+- **标题**: Mitochondrial-nuclear crosstalk: A central axis in Alzheimer's disease
+- **期刊**: Ageing Res Rev (2026-04-25)
+- **关键发现**: 线粒体-核通讯障碍是 AD 早于 Aβ 和 tau 病理的上游驱动因素。NAD⁺ 补充、自噬增强剂和线粒体靶向抗氧化剂是恢复线粒体-核通讯的潜在治疗策略，强调联合干预的重要性。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42044748/
+
+### 其他新增论文
+
+#### 5. 新型雷帕霉素衍生物降低免疫抑制活性并延长寿命
+- **标题**: Novel Rapamycin Derivative With Lower Immunosuppressive Activity and Cytotoxicity Extends Lifespan of Caenorhabditis elegans
+- **期刊**: J Appl Toxicol (2026-04-30)
+- **关键发现**: 雷帕霉素噻唑衍生物 FIM-X8 在保持延长寿命效果的同时降低了免疫抑制活性和细胞毒性，其作用依赖于 mTOR 通路中的 rsks-1 基因，为开发更安全的 geroprotector 提供了结构优化方向。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42063296/
+
+#### 6. 自噬重塑衰老内质网：ER-phagy 是长寿的主动调控机制
+- **标题**: Autophagy reshapes the aging ER
+- **期刊**: Autophagy (2026-04-27)
+- **关键发现**: 内质网在衰老过程中的体积缩小和形态改变不是被动退化，而是由 ER-phagy 驱动的主动重塑过程。ER-phagy 是 mTOR 抑制延长寿命所必需的，揭示了选择性自噬在器官衰老调控中的核心作用。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42046291/
+
+#### 7. T2DM 与衰老研究的全球趋势：衰老相关通路成为核心节点
+- **标题**: Investigating the research trajectory and future trends in type 2 diabetes mellitus and aging: a bibliometric analysis from 2009 to 2025
+- **期刊**: Front Aging (2026-04-22)
+- **关键发现**: 文献计量分析显示 T2DM 与衰老研究的交汇点以细胞衰老为核心节点，新兴研究前沿包括 SASP、NLRP3 炎症小体和表观遗传调控，senolytic 疗法和具有 geroprotective 作用的降糖药是未来方向。
+- **链接**: https://pubmed.ncbi.nlm.nih.gov/42099527/
+
+---
+
+## 上周新增论文 (2026.04.28 – 2026.05.05)
 
 ### 📌 重点论文
 
@@ -91,6 +141,8 @@
 ## 按研究方向分类
 
 ### 1. Senolytics（衰老细胞清除）
+- 衰老心脏再生治疗中的衰老细胞靶点 (2026-05)
+- 细胞衰老的动态谱系：超越二元模型 (2026-05)
 - FOXO4-DRI 逆转录肽靶向 FOXO4-p53 轴清除脑衰老细胞 (2026-04)
 - 纳米医学策略实现衰老细胞精准递送与清除 (2026-05)
 - 靶向衰老细胞改善肥胖相关脑血管功能障碍 (2026-05)
@@ -98,21 +150,28 @@
 - Dasatinib + Quercetin 改善糖尿病肾病 (2026-02)
 
 ### 2. NAD+ 增强剂
+- 线粒体-核互作轴与 NAD⁺ 补充治疗 AD (2026-04)
 - 内皮 NAD+ 耗竭通过 cGAS/STING-CD38 驱动 AD 神经炎症 (2026-04)
 - SLC25A51 调控脂肪组织衰老期 NAD 转运 (2026-05)
 - Tau 诱导线粒体逆向电子转运降低 NAD+/NADH 比值 (2026-04)
 - NAD+ 与昼夜节律耦合在痴呆中的作用 (2026-05)
 - SIRT1 在动脉粥样硬化中的整合调控 (2026-03)
 
-### 3. mTOR 抑制剂
+### 3. mTOR 抑制剂与自噬
+- 新型雷帕霉素衍生物 FIM-X8 降低免疫抑制活性并延长寿命 (2026-04)
+- ER-phagy 是 mTOR 抑制延长寿命所必需的主动机制 (2026-04)
 - 雷帕霉素增强衰老人类免疫系统抗 DNA 损伤能力 (Aging Cell, 2026-02)
 - 低剂量雷帕霉素改善人体免疫反应和皮肤衰老标志物 (2025-12)
 - 二甲双胍通过 AMPK/mTOR 延长健康寿命的分子机制 (2026-01)
 
 ### 4. 代谢干预
+- T2DM 与衰老研究交汇：SASP 和 NLRP3 为核心前沿 (2026-04)
 - 年轻人类菌群移植改善衰老小鼠认知和生殖功能 (2026-04)
 - 肠道微生物组与长寿疗法的机制联系 (2026-01)
 - 百岁老人血浆蛋白质组揭示 23 种与 TAME 标志物关联的年轻相关蛋白 (2026-02)
+
+### 5. 骨骼与组织衰老
+- Galangin 抑制 DPP4 驱动的铁死亡改善老年性骨质疏松 (2026-05)
 
 ### 5. 基因治疗与重编程
 - 病毒模拟机制：自身核酸感知驱动胶质衰老 (2026-05)
@@ -133,4 +192,5 @@
 
 | 日期 | 更新内容 | 新增论文数 |
 |------|----------|------------|
+| 2026-05-11 | 第 2 次更新：新增 7 篇重点论文，更新分类目录 | 7 |
 | 2026-05-06 | 首次大规模更新：检索 6 大方向，筛选 12 篇重点论文 | 12 |
