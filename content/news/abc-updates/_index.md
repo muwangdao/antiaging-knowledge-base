@@ -13,6 +13,7 @@ draft: false
 
 ## 最新动态
 
+- [2026-05-11 追踪报告](/news/abc-updates/2026-05-11/) — 定期检查，无重大新动态
 - [2026-05-10 追踪报告](/news/abc-updates/2026-05-10/) — 📖 Cell 论文中文深度解读 + ClockBase Agent AI 工具上线
 - [2026-05-09 追踪报告](/news/abc-updates/2026-05-09/) — 🚨 Cell 里程碑：多模态人类衰老时钟 + 首次证实凝血因子为衰老驱动因子
 - [2026-05-08 追踪报告](/news/abc-updates/2026-05-08/) — 🔥 3 篇重磅论文：Immunity 免疫衰老时钟 / Cell Metab 铁脂衰老 / Protein Cell 灵长类附睾衰老
@@ -21,7 +22,7 @@ draft: false
 - [2025-03-01 脂肪衰老共识审定](/news/abc-updates/2026-05-07/) — 华东师大召开审定会
 - [2024-12-05 NAR 免疫衰老数据库](/news/abc-updates/2026-05-07/) — Immunosenescence Inventory 发布
 
-**最新检查**: 2026-05-10 12:00 — 📖 Cell 论文中文深度解读 + ClockBase Agent AI 干预挖掘工具上线；本周 4 篇高水平论文创纪录产出
+**最新检查**: 2026-05-11 12:00 — 定期检查，无重大新动态；上周 Cell 论文仍在信息消化期
 
 ---
 
