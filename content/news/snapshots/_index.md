@@ -13,6 +13,7 @@ draft: false
 
 ## 最新快照
 
+- **[2026-05-15 · 清除衰老细胞可治动脉粥样硬化——Senolytics 双轨策略](/news/snapshots/2026-05-15/)** — 衰老细胞是动脉粥样硬化斑块炎症的"幕后黑手"，Senolytics 清除衰老细胞、Senomorphics 抑制有害分泌（Naunyn-Schmiedeberg's Archives of Pharmacology, 2026年5月）
 - **[2026-05-14 · NK 细胞免疫疗法逆转肺纤维化——靶向清除衰老细胞新突破](/news/snapshots/2026-05-14/)** — 阻断 NKG2A 检查点可恢复 NK 细胞杀伤衰老成纤维细胞能力，开辟 senolytic immunotherapy 新赛道（Sci Transl Med, 2026年5月）
 - **[2026-05-13 · 我们为什么会变老？Nature 综述揭开衰老的进化密码](/news/snapshots/2026-05-13/)** — 自然选择随年龄衰减形成"选择阴影"，迟发型有害突变得以积累——衰老是进化的必然副产品（Nat Rev Genet, 2026年5月）
 - **[2026-05-12 · NR 补充剂翻车了？糖皮质激素过量下完全无效](/news/snapshots/2026-05-12/)** — 长期皮质酮过量破坏 NAD+ 稳态，NR 补充无法逆转代谢紊乱——NAD+ 前体不是万能药（J Endocrinol, 2026年5月）
