@@ -5,7 +5,7 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 # 近一个月研究进展
 
-> **更新时间**：2026-05-16 | **数据来源**：PubMed 自动检索
+> **更新时间**：2026-05-17 | **数据来源**：PubMed 自动检索
 
 ---
 
@@ -15,21 +15,21 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
-| 2026 May 15 | An engineered insulin analog with dual insulin and IGF-1 receptor agonism and distinct signaling. | Science advances | [42139356](https://pubmed.ncbi.nlm.nih.gov/42139356/) | An engineered insulin analog with dual insulin and IGF-1 rec... |
-| 2026 May | Role of Collection Media on the Biological Activity of Extracellular Vesicles From hTERT-Immortalised Mesenchymal Stromal Cells. | Journal of extracellular vesicles | [42139274](https://pubmed.ncbi.nlm.nih.gov/42139274/) | Role of Collection Media on the Biological Activity of Extra... |
-| 2026 May 14 | Foundations of Gerophysics. | Aging | [42139095](https://pubmed.ncbi.nlm.nih.gov/42139095/) | Foundations of Gerophysics. |
-| 2026 May 15 | Protocol for using an ELISA to detect total α-synuclein levels in Drosophila melanogaster lines expressing human α-synuclein point mutations. | STAR protocols | [42139061](https://pubmed.ncbi.nlm.nih.gov/42139061/) | Protocol for using an ELISA to detect total α-synuclein leve... |
-| 2026 May | Astrocytes in Brain Aging and Neurodegeneration: Cellular Mechanisms and Interventional Strategies. | Journal of neurochemistry | [42138465](https://pubmed.ncbi.nlm.nih.gov/42138465/) | Astrocytes in Brain Aging and Neurodegeneration: Cellular Me... |
+| 2026 May 16 | Intestinal T cells in aging: implications for gut barrier integrity and inflammaging. | GeroScience | [42141269](https://pubmed.ncbi.nlm.nih.gov/42141269/) | Intestinal T cells in aging: implications for gut barrier in... |
+| 2026 May 15 | Aging promotes a RAGE-dependent increase in breast cancer metastasis. | Communications biology | [42141167](https://pubmed.ncbi.nlm.nih.gov/42141167/) | Aging promotes a RAGE-dependent increase in breast cancer me... |
+| 2026 May 16 | Eugenol from Syzygium aromaticum enhances longevity and proteostasis in aged yeast. | Biogerontology | [42141132](https://pubmed.ncbi.nlm.nih.gov/42141132/) | Eugenol from Syzygium aromaticum enhances longevity and prot... |
+| 2026 May 15 | Proteomic signatures of the APOE ε4 and APOE ε2 genetic variants and Alzheimer's disease. | Nature aging | [42141098](https://pubmed.ncbi.nlm.nih.gov/42141098/) | Proteomic signatures of the APOE ε4 and APOE ε2 genetic vari... |
+| 2026 May 15 | Network clustering algorithms and preprocessing pipelines for robust cell type identification in single-cell RNA sequencing data. | Scientific reports | [42141063](https://pubmed.ncbi.nlm.nih.gov/42141063/) | Network clustering algorithms and preprocessing pipelines fo... |
 
 ### NAD+ 与线粒体
 
 | 日期 | 标题 | 期刊 | PMID | 关键发现 |
 |------|------|------|------|---------|
+| 2026 May 15 | Effect of Sevelamer and B. longum on Insulin Sensitivity in Participants With Obesity: A Randomized Clinical Trial. | Obesity (Silver Spring, Md.) | [42141362](https://pubmed.ncbi.nlm.nih.gov/42141362/) | Effect of Sevelamer and B. longum on Insulin Sensitivity in ... |
 | 2026 May 15 | The role of ATP synthase subunit e (ATP5I) in mediating the metabolic and antiproliferative effects of metformin in cancer cells. | eLife | [42138716](https://pubmed.ncbi.nlm.nih.gov/42138716/) | The role of ATP synthase subunit e (ATP5I) in mediating the ... |
 | 2026 May 14 | A versatile nanobody platform for live and super-resolution imaging of synaptic vesicle dynamics and plasticity in rodent and human neurons. | Journal of nanobiotechnology | [42135832](https://pubmed.ncbi.nlm.nih.gov/42135832/) | A versatile nanobody platform for live and super-resolution ... |
 | 2026 May 14 | Reduced ULK1 links impaired autophagy and mitophagy to Alzheimer's disease pathology. | Nature aging | [42135576](https://pubmed.ncbi.nlm.nih.gov/42135576/) | Reduced ULK1 links impaired autophagy and mitophagy to Alzhe... |
 | 2026 May 14 | Whole-blood NAD(+) levels do not reflect healthy ageing. | Nature metabolism | [42135540](https://pubmed.ncbi.nlm.nih.gov/42135540/) | Whole-blood NAD(+) levels do not reflect healthy ageing. |
-| 2026 May 14 | Human whole-blood NAD(+) levels do not vary with age or lifestyle interventions. | Nature metabolism | [42135539](https://pubmed.ncbi.nlm.nih.gov/42135539/) | Human whole-blood NAD(+) levels do not vary with age or life... |
 
 ### 尿石素 A 与线粒体自噬
 
@@ -61,4 +61,4 @@ description: "按研究主题分类展示最近一个月的抗衰老研究进展
 
 ---
 
-*最后更新：2026-05-16 | 自动生成*
+*最后更新：2026-05-17 | 自动生成*
